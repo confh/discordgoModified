@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/bwmarrin/discordgo"
+	"github.com/confh/discordgoModified"
 )
 
 // Flags
