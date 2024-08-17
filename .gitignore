@@ -3,3 +3,6 @@
 
 # Environment variables. Useful for examples.
 .env
+
+# Commit batch script
+commit.bat

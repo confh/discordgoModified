@@ -318,6 +318,10 @@ func (i Interaction) ApplicationCommandData() (data ApplicationCommandInteractio
 	return i.Data.(ApplicationCommandInteractionData)
 }
 
+func (i Interaction) GetUser() *User {
+	return i.Member.User
+}
+
 // ModalSubmitData is helper function to assert the inner InteractionData to ModalSubmitInteractionData.
 // Make sure to check that the Type of the interaction is InteractionModalSubmit before calling.
 func (i Interaction) ModalSubmitData() (data ModalSubmitInteractionData) {
